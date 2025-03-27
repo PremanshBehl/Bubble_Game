@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+#ptop{
+    padding: 0px 20%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* background-color: blue; */
+    /* width: 10%; */
+}
+
+.elem h2{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.box{
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#pbottom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 50%;
+    background-color: red;
+    font-weight: 500;
+}
+
+.bubble:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
